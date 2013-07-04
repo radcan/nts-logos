@@ -1,8 +1,8 @@
 These logos were drawn in Scalable Vector Graphics (SVG) format [2] for RAC by
 Tyler Tidman VA3DGN.  Wherever possible, the Portable Network Graphics (PNG)
 format [3] is now being used for all auto-generated bitmaps.  The chosen fonts,
-"DejaVu Sans Bold", "DejaVu Sans", "DejaVu Sans Bold Condensed" and "DejaVu
-Sans Condensed" [4] are provided gratis under a free license.
+"DejaVu Sans Bold" and "DejaVu Sans" [4] are provided gratis under a free
+license.
 
 Software that was used to create and work with these files:
   - GNU Make (3.81) [5]
