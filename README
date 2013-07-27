@@ -8,7 +8,7 @@ Software that was used to create and work with these files:
   - GNU Make (3.81) [5]
   - Inkscape (0.46, 0.47, 0.48) [6]
   - Imagemagick (6.3.7, 6.6.0-4) [7]
-  - Debian Linux "Squeeze" and "Wheezy" (6.0, 7.0) [8]
+  - Debian Linux (6.0, 7.0) [8]
 
 Type "make" to magically generate bitmap versions from the source vector .svg
 files.
@@ -21,6 +21,7 @@ tusarutilirinikkut aaqiumatitsijit => "TBD", "pride" => ukpirnarniq => "TBD",
 "innovation" => akausigiaqtitsiniq => "TBD".
 
 References:
+[z]http://github.com/tylert/nts_logos
 [0]http://rac.ca/en/rac/services/logos
 [2]http://w3.org/Graphics/SVG
 [3]http://libpng.org/pub/png
