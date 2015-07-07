@@ -1,35 +1,46 @@
-These logos were drawn in Scalable Vector Graphics (SVG) format [2] for RAC by
-Tyler Tidman VA3DGN.  Wherever possible, the Portable Network Graphics (PNG)
-format [3] is now being used for all auto-generated bitmaps.  The chosen fonts,
-"DejaVu Sans Bold" and "DejaVu Sans" [4] are provided gratis under a free
-license.
+NTS Logos
+=========
 
-Software that was used to create and work with these files:
-  - GNU Make (3.81) [5]
-  - Inkscape (0.48.3.1, 0.48, 0.47, 0.46) [6]
-  - Imagemagick (6.7.7-10, 6.6.0-4, 6.3.7) [7]
-  - Debian Linux (7,3, 7.0, 6.0) [8]
 
-Type "make" to magically generate bitmap versions from the source vector .svg
-files.
+These logos were drawn in `Scalable Vector Graphics`_ (SVG_) format for `Radio
+Amateurs of Canada`_ (RAC_) by Tyler Tidman VA3DGN.  Wherever possible, the
+`Portable Network Graphics`_ (PNG_) format is now being used for all generated
+bitmaps.  The chosen fonts, "DejaVu_ Sans Bold" and "DejaVu_ Sans" are provided
+gratis under a free, open-source license.
+
+.. _Radio Amateurs of Canada: RAC_
+.. _RAC: http://rac.ca
+.. _DejaVu: http://dejavu-fonts.org
+
+.. _Scalable Vector Graphics: SVG_
+.. _SVG: http://w3.org/Graphics/SVG
+.. _Portable Network Graphics: PNG_
+.. _PNG: http://libpng.org/pub/png
 
 French translations were provided by Tyler Tidman VA3DGN and verified by Serge
 Langois VE2AWR and Claude Lalande VE2LCF.  Inuktitut (Inuit) translations were
 provided by Jamie Savikataaq and verified by TBD.
 
-"National Traffic System" =>
-ᑐᓴᕈᑎᓕᕆᓂᒃᑯᑦ ᐋᕐᒃᑭᐅᒪᑎᑦᓯᔨᑦ (tusarutilirinikkut aaqiumatitsijit) => TBD
-"Pride" => ᐅᒃᐱᕐᓇᕐᓂᕐᒃ (ukpirnarniq) => TBD
-"Service" => ᐱᔨᑦᓯᕐᓂᕐᒃ (pijitsirniq) => TBD
-"Tradition" => ᐱᕐᒃᑯᓯᕐᒃ (piqqusiq) => TBD
-"Innovation" => ᐊᑲᐅᓯᒋᐊᕐᒃᑎᑦᓯᓂᕐᒃ (akausigiaqtitsiniq) => TBD
+::
 
-References:
-[1]http://rac.ca/en/rac/services/logos
-[2]http://w3.org/Graphics/SVG
-[3]http://libpng.org/pub/png
-[4]http://dejavu-fonts.org
-[5]http://gnu.org/software/make
-[6]http://inkscape.org
-[7]http://imagemagick.org
-[8]http://debian.org
+  "National Traffic System" =>
+    ᑐᓴᕈᑎᓕᕆᓂᒃᑯᑦ ᐋᕐᒃᑭᐅᒪᑎᑦᓯᔨᑦ (tusarutilirinikkut aaqiumatitsijit)
+  "Pride" => ᐅᒃᐱᕐᓇᕐᓂᕐᒃ (ukpirnarniq)
+  "Service" => ᐱᔨᑦᓯᕐᓂᕐᒃ (pijitsirniq)
+  "Tradition" => ᐱᕐᒃᑯᓯᕐᒃ (piqqusiq)
+  "Innovation" => ᐊᑲᐅᓯᒋᐊᕐᒃᑎᑦᓯᓂᕐᒃ (akausigiaqtitsiniq)
+
+Software that was used to create and work with these files:
+
+* Inkscape_ (0.48.5, 0.48, 0.47, 0.46)
+* Imagemagick_ (6.8.9-9, 6.6.0-4, 6.3.7)
+* `GNU Make`_ (4.0, 3.81)
+* `Debian GNU/Linux`_ (8.x, 7.x, 6.x)
+
+.. _Inkscape: http://inkscape.org
+.. _Imagemagick: http://imagemagick.org
+.. _GNU Make: http://gnu.org/software/make
+.. _Debian GNU/Linux: http://debian.org
+
+Type "make" to magically generate bitmap versions from the source vector .svg
+files.
