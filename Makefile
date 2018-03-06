@@ -7,30 +7,30 @@ PDF = $(SVG:.svg=.pdf)
 
 GENERATED_FILES = $(PNG) $(THUMB) $(PDF) $(JPG)
 
-.PHONY : all
-all : $(GENERATED_FILES)
+.PHONY: all
+all: $(GENERATED_FILES)
 
-.PHONY : png
-png : $(PNG)
+.PHONY: png
+png: $(PNG)
 
-.PHONY : thumb
-thumb : $(THUMB)
+.PHONY: thumb
+thumb: $(THUMB)
 
-.PHONY : pdf
-pdf : $(PDF)
+.PHONY: pdf
+pdf: $(PDF)
 
-%.png : %.svg
+%.png: %.svg
 	@inkscape --export-png=$@ $<
 
-#%.thumb.png : %.svg
+#%.thumb.png: %.svg
 	#@inkscape -w125 -h125 --export-png=$@ $<
 
-%.thumb.png : %.png
+%.thumb.png: %.png
 	@convert -size 125x125 -resize 125x125 $< $@
 
-%.pdf : %.svg
+%.pdf: %.svg
 	@inkscape --export-text-to-path --export-pdf=$@ $<
 
-.PHONY : clean
-clean :
+.PHONY: clean
+clean:
 	@rm -f $(GENERATED_FILES)
